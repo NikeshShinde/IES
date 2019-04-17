@@ -1,0 +1,42 @@
+Telephonic interview quns
+___________________________
+1) what are oops features?what is diff bw abstraction and encapsulation?
+2)overriding rules?
+3)use of constructors?
+4)what are the access modifiers & diff bw protected and default?
+5)what is transient and volatile keyword?
+6)what is serialization?
+7)what is marker interface? give examples?
+8)diff bw arraylist & linkedlist?
+9)diff bw yield and join methods?
+10)diff bw throw and throws keyword?exception class hierarchy?
+11)runtime,compliletime exceptions?ex?
+12)what is concurrent modification exception?how to resolve?
+13) spring boot initialization annotation?
+14)spring bean scopes?
+15)what is ioc?
+16)what is annotation for spring bean injection? what is @qualifier annotation?
+17)hibernate annotations?
+18)first &second level cache?
+19) what are the design patterns u know? where u have used in ur project?
+20) diff bw get and load methods?
+21)diff bw sessionfactory and session?
+21)are using any ssl in your project?
+22)how many api calls ur using in ur project?
+
+manager round questions
+_________________________
+1)How do u get requirements?
+2)what are the steps u follow after getting requirements?
+3)do u ever communicate with client?
+4)How u would prepare tdd? what tdd contains?
+5)does anyone review your tdd?
+6)how do you estimate time(rom)?
+7)what is difference bw interface and abstract class?where exactly u used interface?
+8)what is splunk tool?
+9)there is no primary key column in db table and there are lacks of records in table which contain duplicate records.
+how do u remove duplicate records?
+10)what is use of microservices?
+how burden on the server could be reduced using microservices?
+11)what is join concept in sql?syntax for any one type of join?
+

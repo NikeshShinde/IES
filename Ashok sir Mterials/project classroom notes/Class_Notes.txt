@@ -1,0 +1,256 @@
+
+Pre Requisites for Java Project batch
+-----------------------------------------------
+
+1) Core Java 
+	- OOPS
+	- Collections
+	- Multi Threading
+	- Exception Handling
+	- IO Streams
+	- Annotations
+	- Generics
+	- String Handling
+
+2) J2EE
+	- JDBC
+	- Servlets
+	- JSP
+
+3) Frameworks
+	- Spring
+	- Hibernate
+
+4) Webservices
+
+                - SOAP Webservices
+                - RESTFul Services
+
+5) Database
+	- Oracle
+-------------------------------------------------------------------------
+
+Course Duration : 2 to 2.5 months
+Daily : 1.5 hour
+
+2 Projects 
+--------------
+1) Health Insurance domain (Monolithic)
+2) Banking domain (Microservices)
+
+Technologies : Java, j2ee, Spring, Spring Boot, Spring Data, Spring cloud, Hibernate, Soap and RESTful Services.
+
+Tools : Maven, Log4J, Junit, Mockito, JIRA, SVN, GIT Hub, PMD, Sonar Qube, Jaccoo, Apache POI, IText PDF, Putty and WinScp.
+----------------------------------------------------------------------------
+
+Facebook Group Name : Ashok IT School
+email : ashok.javatraining@gmail.com
+-----------------------------------------------------------------------------
+
+
+What is a Project ?
+
+ -  Set of classes together is called as project.
+
+Why we need to develop Projects?
+
+ - To make humans life easier we are developing software     projects.
+
+ - Net Banking, E-Commerce, Online Reserverations etc...
+
+
+What type of projects are there in industry currently ?
+    
+
+    - Scratch Development : Brand New Project
+
+    - Maintenence & Support : 
+		Enhancements, CR and Bug fixing etc
+
+    - Migration : one technology to another technology etc.
+------------------------------------------------------------------------------
+
+
+SBI Bank
+
+   --  Intranet  =====>   Agent portals
+   --  Internet  =====>   Customer Portals
+  --   Batch  Execution    =====>   To perform business operations
+
+---------------------------------------------------------------------
+
+Domains of the Project
+---------------------------
+
+1) Functional Domain
+
+Health Care
+Banking
+Insurance
+Telecom
+Retail etc...
+
+2) Technical Domain
+
+         Java
+        .Net
+        Python 
+        PHP etc....
+
+Types of software companies
+------------------------------------
+1) Service based 
+  
+   - These companies will develop projects based on client requirements.
+
+    Ex : TCS, HCL, Infosys, Wipro, Techm etc...
+
+2) Product based
+
+ - These companies will develop a project/product on their own and they will sell in the market.
+ 
+    Ex : Microsoft, Oracle, HP, Sony, Samsung, ServiceNow etc
+
+Project Teams
+------------------
+ 1) Onshore team  (client location team)
+           functional, dev, testers, db, infra (Devops)
+
+2) Offshore team
+        Dev, Testers, DB, infra (Devops) 
+
+-----------------------------------------------------------------------------
+Functinal / Business team will collect requirements from client
+
+Functional team will prepare BRD 
+
+From BRD doc functional team will prepare FDD
+
+BRD - Business requirement document
+
+FDD - Functional design document
+
+Once FDD is approved by client, functional team will upload
+FDD into Sharepoint location.
+
+Functional ppl will setup VC with Offshore people
+
+VC - Video conference
+
+Offshore team memebers has to understand that FDD
+
+QueryLog is used to log queries in FDD
+
+Functional team will provide clarification for queries
+
+If we need more clarifications we can setup bridge call with 
+functional team members.
+
+Bridge call - conference call
+
+VOIP - 
+Skye Business / Lynk / Webex
+------------------------------------------
+MoM - Minutes of Meeting
+Subject :  requirement 3.1.1
+Attendees : John, Charles, Raju, Satish, Suresh
+
+Summary
+-----------
+1)
+
+2)
+
+Action Items
+---------------
+1) Functional should response on query 45 by today eod.
+
+
+
+
+
+
+1) Understand the requirements given by functional team
+
+2) If any queries in FDD, log them in query log
+
+3) Connect with functional team to get confirmations on queries
+
+4) Preparing Technical Design Document 
+
+5) Development
+
+6) Unit testing + Integration Testing
+
+7) Code review
+
+8) Bug fixing 
+
+
+
+
+Agile -- 
+
+Sprints  --- Release 
+
+Scrum  calls - 30 mins
+
+Retrospective -- looking back and analyze
+
+Sprint planning meeting - 10
+--------------------------------------------
+Scrum Master
+
+Technical Debt
+
+backlog bucket
+
+for every sprint stories will be created by scrum master in JIRA
+
+we have to pickup a story and start working on that.
+
+--------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+Facebook Group name : Ashok IT School
+
+Email : ashok.javatraining@gmail.com
+
+Youtube : Ashok IT School
+ 
+  (Debugging & Log4 J)
+
+---------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

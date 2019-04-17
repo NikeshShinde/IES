@@ -1,0 +1,252 @@
+Functional
+
+Technical domain
+
+
+
+
+Repository Tools / SCM / Source Repositories : 
+----------------------------------------------------------
+Project development will happen from different different locations.
+
+Sometimes development will happen different companies also
+
+Manual code intergration is going to take lot of time.
+
+To avoid this problem , we need some tools to integrate our project specific code.
+
+These tools are used to store our project source code
+
+Below are the some of Repository servers using in market.
+
+CVS
+Clear Case
+SVN
+GIT HUB and
+Bit Bucket  
+
+
+Unit Testing Tools
+-----------------------
+Developer is responsible to perform unit testing
+
+To do unit testing we can use Debugging
+
+To automate unit testing we can use Unit Testing tools
+
+Junit and Mockito
+
+
+Build tools
+--------------
+1) we need to download dependencies for our project
+2) compilation
+3) packaging (generating jar or war or ear)
+4) deployment
+
+All the above manual tasks we can automate using Build tools.
+
+ANT
+Maven
+Gradle etc..
+Jenkins & Bamboos (CI & CD)
+
+In project we can see below 3 types of deployments
+
+1) On-demand (we need to request infra team) 
+
+2) Scheduled (in specific times deployment will happen)
+
+3) CI & CD (whenever there is a change in repo deployment will     happen)
+
+
+Logging tools
+-----------------
+When we have project in local we can do debugging to identify the issues
+
+When code is promoted to higher environments we can't connect to higher env db with our code so debugging in higher environment is not possible.
+
+To identify issues in higher environments we need to generate log messages for our application.
+
+To generate log messages we will use log4j api
+
+Note : Projects will be deployed in linux machines
+
+We should connect from windows system to linux system to access 
+log files.
+
+For that purpose we will  use below log monitoring tools
+
+Log monitoring tools
+----------------------------
+Putty - on growing logs we can see using putty
+
+WinScp - To copy log files we can use WinScp
+
+Splunk - Advanced log analysis & Reports etc..
+
+Note : Production logs will be mounted to splunk.
+
+Note : Infra team will share log files storing system details
+
+IP address : 19.168.5.36
+Username : loguser
+Password : loguser@123
+
+Code Review tools
+-----------------------
+Code review will happen in project to achieve quality to provide bug free code.
+
+By code review we can improve readability of source code
+
+Code review will happen in below 2 ways
+
+1) Peer review (manual review)
+
+Note : After peer review completed, we should review comments to respective developer thru email.
+
+2) By using tools
+
+           - PMD - Eclipse plugin - Programmer mistake detector
+           -  Sonar Qube (Customized rules)
+
+Performance Testing tools
+--------------------------------
+To perform performance testing of project we can use below tools
+
+JMETER - Open source
+HP Load Runner - Commercial
+
+Code Coverage tool
+-------------------------
+It is used to check how much percentage of our code is covered in junit scripts.
+
+Jaccoo
+
+UML tools
+-------------
+As part of TDD, we need to create UML diagrams.
+To create UML diagrams we will use below tools.
+
+MS visio
+Star UML
+EA (Enterprise Architect)
+
+Bug reporting tools
+-------------------------
+BugZilla - bug reporting tool
+
+JIRA- project management tool
+---------------------------------------------------------------------------------
+
+SVN
+-----
+
+Sub version
+It is used to store project source code.
+This can be called as Repository Server.
+
+To work with SVN we need to have below 2 softwares
+
+1) SVN Server -- Visual SVN Server
+
+2) SVN Client -- Tortoise SVN and Subclipse plugin
+
+SVN Client is used to connect SVN Server
+
+SVN Server will be installed in only one computer. Admin will take care of SVN Server setup.
+
+SVN Client should be installed in all project team members computers.
+
+Project Manager will send an email to Admin to create Repository for project in SVN.
+
+Admin will create repository for that project and he will share Repository URL to project manager.
+
+PM will send user details to admin.
+
+Admin will create Users and User Groups in SVN Server and he will provide permissions to Repository for only those users.
+
+Admin will share user credentials to respective people.
+
+Note : We should not share our repository credentials with anybody.
+
+SVN Operations
+--------------------
+Checkout
+Add
+Commit
+Show diff
+Update
+Delete
+Show Log
+Lock
+Merge and   
+Revert  etc.
+
+
+Checkout
+------------
+Taking project from Repository server is called as Checkout.
+
+Repo URL :  https://server/svn/HIS-Application/trunk
+
+Right click on Mouse -> SVN Checkout -> Enter Repo URL -> Enter Uname and PWd -- > Uncheck save authentiction -> Click on Finish.
+
+Add :
+-------
+To push newly created files to Repository first we need to add them then only we can push to repository.
+
+Right click on file -> Tortoise SVN - > Add 
+
+Commit
+----------
+Pushing local changes to Repository server is called Commit.
+This is also called as Check-in.
+
+For New Files : 
+Right click on file -> Add-> Commit -> Enter comments -> Finish.
+
+If our commit is successful, repository server will generate one unique id. That unique id is called as Revision Number.
+
+For Existing Files:
+
+Right click on File --> Tortoise SVN -> Difference -> Take Update
+Merge our changes --> Commit --> Enter Comments -> Finish.
+
+Colors Representation
+----------------------------
+Green color - > Local code is in sync with repostiory
+
+Red color -> Changes are in local, shoud commit to repo
+
+Blue color -> New files are added, we should commit to repo.
+
+
+https://server/svn/HIS-Application/trunk
+
+https://server/svn/HIS-Application/branches
+
+https://server/svn/HIS-Application/tags
+
+
+trunk : ongoing develeopment
+
+branches : SIT and UAT code bases
+
+tags : Production code
+----------------------------------------------------------------------------
+
+We can use SVN directly from IDE with the help of Subclipse plugin.
+
+Note : By default this plugin will not be available, we have to install in IDE.
+
+
+
+
+
+
+
+
+
+
+
